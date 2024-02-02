@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(229, 228, 227);
+}
+.box{
+    margin: auto;
+    height: 350px;
+    width: 500px;
+    background-color: rgb(231, 241, 240);
+    box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+    border-radius: 4px;
+    padding: 16px;
+    border: 2px solid rgba(128, 128, 128, 0.35);
+    border-top: 1px solid rgba(128, 128, 128, 0.35);
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+img{
+    display: block;
+    height: 180px;
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 0 0 2px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+    border-radius: 3%;
+}
+.top-bar{
+    width: 500px;
+    height: 15px;
+    padding: 16px;
+    margin: auto;
+    background-color: rgb(231, 241, 240);
+    border: 2px solid rgba(128, 128, 128, 0.35);
+    border-bottom: 0;
+    border-radius: 3%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+    color: grey;
+    text-align:right
+}
+.btn{
+    width: 160px;
+    height: 37px;
+    box-shadow: 0 0 2px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+    border: 2px solid rgba(128, 128, 128, 0.35);
+    border-radius: 6%;
+    margin: 10px;
+    background-color: rgb(211, 233, 231);
+    opacity: 60%;
+    font-style: oblique;
+    color: gray;
+}
+.btn:hover{
+    opacity: 100%;
+}
+.btn-container{
+    width:364px ;
+    margin: auto; 
+    margin-top: 20px;
+}
+
+.next-btn{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(19, 50, 90);
+    border-radius: 7%;
+    border: none;
+    display: none;
+    margin: auto;
+    margin-top: 5px;
+    color: white;
+}
+
+.win{
+    font-style:inherit;
+    font-size: large;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(11, 107, 155);
+}
+h2{
+    color: rgb(72, 68, 68);
+}
+.play-again{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 160px;
+    height: 37px;
+    box-shadow: 0 0 2px rgba(18, 144, 190, 0.05), 2px 2px 5px rgba(26, 154, 209, 0.1);
+    background-color: rgb(11, 107, 155);
+    border-radius: 6px;
+    color: white;
+    border: 2px solid rgb(78, 137, 157);
+}
+.top-ques{
+    display: inline;
+    margin-right: 145px;
+    font-size: 20px;
+    color: rgb(56, 90, 98);
+}
+.top-count{
+    display: inline;
+}
